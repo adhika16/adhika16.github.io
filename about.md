@@ -4,42 +4,28 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- <h1>About Me</h1> -->
+<p>Hello! I'm a self-taught software engineer with a passion for creating innovative solutions and a strong drive to learn and grow. Over the past four years, I've honed my skills through self-directed learning and practical experience, and I'm excited to share my journey with you.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>My Journey</h2>
+<p>My journey in software engineering began as a personal fascination, and I've since transformed it into a fulfilling career. Without a traditional computer science background, I took it upon myself to learn the ropes. I'm proud to have developed a strong foundation in programming, web development, and various technology stacks through hands-on projects and online resources.</p>
 
-<h2>Skills</h2>
-
+<h2>Expertise</h2>
+<p>My expertise includes:</p>
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Back-End Development: I've developed server-side applications using technologies like .NET and C#. I am also experienced developing microservices and event-driven applications.</li>
+	<li>Front-End Development: I am capable in creating user-friendly and visually appealing web interfaces using HTML, CSS, and JavaScript. As well as using frameworks like ReactJS and VueJS.</li>
+	<li>Problem Solving: I enjoy solving complex coding challenges and finding elegant solutions to real-world problems.</li>
+	<li>Continuous Learning: My self-taught journey has instilled a deep commitment to staying up-to-date with the latest industry trends and technologies.</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Personal Projects</h2>
+<p>Outside of my professional work, I've embarked on personal projects that reflect my passion for coding. These projects have allowed me to explore emerging technologies, build applications, and contribute to open-source communities.</p>
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+<h2>My Vision</h2>
+<p>My vision as a software engineer is to continue pushing boundaries and embracing new challenges. I'm passionate about leveraging technology to create innovative solutions that make a positive impact and improve people's lives.</p>
+
+<h2>Let's Connect</h2>
+<p>I'm always open to networking, learning from others, and exploring exciting opportunities. If you're interested in collaborating on projects, sharing insights, or simply connecting with a fellow enthusiast in the tech world, please feel free to reach out via <a href="https://github.com/{{site.github}}">GitHub</a>, <a href="https://www.linkedin.com/in/{{site.linkedin}}">LinkedIn</a>, <a href="https://twitter.com/{{site.twitter}}">X</a>.</p>
+
+<p>Thank you for visiting my profile, and I look forward to connecting with you and sharing the wonders of software engineering!</p>
