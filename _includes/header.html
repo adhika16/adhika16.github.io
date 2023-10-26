@@ -20,7 +20,23 @@
         <h2 class="description">{{ site.bio }}</h2>
 
         {% include social-links.html %}
-    </header>
+        <!-- typeit section -->
+        <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
+        <script>
+            new TypeIt(".description", {
+                cursor: {
+                    animation: {
+                        options: {
+                            iterations: Infinity,
+                            easing: "linear",
+                            fill: "forwards",
+                        },
+                    },
+                }
+            }).go();
+        </script>
+        <!-- typeit section -->
+    </header>  
 {% endif %}
 
 {% include nav.html %}
