@@ -1,5 +1,5 @@
 # main text of home
-title: Adhika.
+title: Adhika
 bio: A person who enjoys coding
 
 # twitter summary info
@@ -54,6 +54,12 @@ authors:
     external-image: false
     picture: assets/images/james.jpg
     twitter: jamesfoster
+  adhika:
+    name: Adhika
+    bio: A person who enjoys coding
+    external-image: false
+    picture: assets/images/myprofile.png
+    twitter: adhika_16
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
